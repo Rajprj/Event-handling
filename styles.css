@@ -39,6 +39,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
+  width:100vw;
   z-index: 10000;
   background: #333;
   display: flex;
@@ -467,7 +468,7 @@ html::-webkit-scrollbar-thumb {
 
 
 .theme-toggler {
-  position: fixed;
+  position: absolute;
   top: 10rem;
   right: -20rem;
   background: #333;
