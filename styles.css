@@ -75,6 +75,9 @@ section {
   display: none;
 }
 
+.home{
+  overflow:hidden;
+}
 .home .content {
   text-align: center;
   padding-top: 6rem;
@@ -316,7 +319,9 @@ section {
   color: var(--theme-color);
   padding-right: 0.5rem;
 }
-
+.reivew{
+  overflow: hidden;
+}
 .reivew .box {
   border-radius: 0.5rem;
   background: #333;
@@ -468,7 +473,7 @@ html::-webkit-scrollbar-thumb {
 
 
 .theme-toggler {
-  position: absolute;
+  position: fixed;
   top: 10rem;
   right: -20rem;
   background: #333;
